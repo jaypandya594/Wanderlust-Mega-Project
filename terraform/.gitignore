@@ -1,0 +1,15 @@
+#state files
+
+*.tfstate
+*.tfstate.backup
+
+#ssh keys
+*.pem
+terra-key
+terra-key.pub
+eks-nodegroup-key
+eks-nodegroup-key.pub
+
+#terraform cache
+.terraform/
+.terraform.lock.hcl
